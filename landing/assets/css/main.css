@@ -80,6 +80,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  text-align: center
 }
 
 /* PHP Email Form Messages
