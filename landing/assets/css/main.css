@@ -2,6 +2,7 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
@@ -52,6 +53,13 @@
   scroll-behavior: smooth;
 }
 
+/*
+# mytest
+ */
+
+ .myclass{
+  background-color: #cc99ff;
+ }
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -218,7 +226,8 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(0, 0, 0, 0);
+  --background-color: #660099;
+  /* --background-color: rgba(0, 0, 0, 0); */
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -246,7 +255,8 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(0, 0, 0, 0.85);
+  --backgrount-color: #660099;
+  /* --background-color: rgba(0, 0, 0, 0.85); */
 }
 
 /*--------------------------------------------------------------
